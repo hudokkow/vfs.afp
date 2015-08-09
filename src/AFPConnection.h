@@ -19,12 +19,12 @@
  */
 
 #include <string>
-#include <kodi/threads/mutex.h>
+#include "platform/threads/mutex.h"
 
 extern "C" {
-#include <afpfs-ng/libafpclient.h>
-#include <afpfs-ng/map_def.h>
-#include <afpfs-ng/midlevel.h>
+#include "afpfs-ng/libafpclient.h"
+#include "afpfs-ng/map_def.h"
+#include "afpfs-ng/midlevel.h"
 }
 
 #ifdef USE_CVS_AFPFS
